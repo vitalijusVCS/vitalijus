@@ -1,0 +1,228 @@
+2018-03-06T12:04:23+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-07T14:21:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function locate_template(), 0 passed in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\header.php on line 9 and at least 1 expected in C:\MAMP\htdocs\vitalijus\wp-includes\template.php:629
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\header.php(9): locate_template()
+#1 C:\MAMP\htdocs\vitalijus\wp-includes\template.php(688): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\vitalijus\wp-includes\template.php(647): load_template('C:\\MAMP\\htdocs\\...', true)
+#3 C:\MAMP\htdocs\vitalijus\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\archive-product.php(23): get_header('shop')
+#5 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#7 C:\MAMP\htdocs\vitalijus\index.php(17): require('C:\\MAMP\\htdocs\\...')
+
+2018-03-08T12:49:08+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product\sale-flash.php:26
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include()
+#1 C:\MAMP\htdocs\vitalijus\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1155): wc_get_template('single-product/...')
+#2 C:\MAMP\htdocs\vitalijus\wp-includes\class-wp-hook.php(286): woocommerce_show_product_sale_flash('')
+#3 C:\MAMP\htdocs\vitalijus\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\MAMP\htdocs\vitalijus\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\templates\_tpl.php(20): do_action('woocommerce_bef...')
+#6 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include('C:\\MAMP\\htdocs\\...')
+#7 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#8 C:\MAMP\ht
+
+2018-03-08T12:50:08+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product\sale-flash.php:26
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include()
+#1 C:\MAMP\htdocs\vitalijus\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1155): wc_get_template('single-product/...')
+#2 C:\MAMP\htdocs\vitalijus\wp-includes\class-wp-hook.php(286): woocommerce_show_product_sale_flash('')
+#3 C:\MAMP\htdocs\vitalijus\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\MAMP\htdocs\vitalijus\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\templates\_tpl.php(20): do_action('woocommerce_bef...')
+#6 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include('C:\\MAMP\\htdocs\\...')
+#7 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#8 C:\MAMP\ht
+
+2018-03-08T12:50:29+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product\sale-flash.php:26
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include()
+#1 C:\MAMP\htdocs\vitalijus\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1155): wc_get_template('single-product/...')
+#2 C:\MAMP\htdocs\vitalijus\wp-includes\class-wp-hook.php(286): woocommerce_show_product_sale_flash('')
+#3 C:\MAMP\htdocs\vitalijus\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\MAMP\htdocs\vitalijus\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\templates\_tpl.php(54): do_action('woocommerce_bef...')
+#6 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include('C:\\MAMP\\htdocs\\...')
+#7 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#8 C:\MAMP\ht
+
+2018-03-08T12:51:03+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product\sale-flash.php:26
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include()
+#1 C:\MAMP\htdocs\vitalijus\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1155): wc_get_template('single-product/...')
+#2 C:\MAMP\htdocs\vitalijus\wp-includes\class-wp-hook.php(286): woocommerce_show_product_sale_flash('')
+#3 C:\MAMP\htdocs\vitalijus\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\MAMP\htdocs\vitalijus\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\templates\_tpl.php(54): do_action('woocommerce_bef...')
+#6 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include('C:\\MAMP\\htdocs\\...')
+#7 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#8 C:\MAMP\ht
+
+2018-03-08T12:55:51+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on null in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product\rating.php:29
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include()
+#1 C:\MAMP\htdocs\vitalijus\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1109): wc_get_template('single-product/...')
+#2 C:\MAMP\htdocs\vitalijus\wp-includes\class-wp-hook.php(286): woocommerce_template_single_rating('')
+#3 C:\MAMP\htdocs\vitalijus\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 C:\MAMP\htdocs\vitalijus\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\templates\_tpl.php(25): do_action('woocommerce_sin...')
+#6 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include('C:\\MAMP\\htdocs\\...')
+#7 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#8 C:\MAMP
+
+2018-03-08T13:20:12+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on string in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product.php:58
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include()
+#1 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\vitalijus\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown
+
+2018-03-08T13:21:48+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on string in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product.php:38
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include()
+#1 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\vitalijus\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown
+
+2018-03-08T13:22:18+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on string in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product.php:58
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include()
+#1 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\vitalijus\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown
+
+2018-03-08T13:22:40+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on string in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product.php:58
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include()
+#1 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\vitalijus\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown
+
+2018-03-08T13:23:07+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product.php:30
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include()
+#1 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\vitalijus\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown
+
+2018-03-08T14:06:42+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_template_part(), 0 passed in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product.php on line 33 and at least 1 expected in C:\MAMP\htdocs\vitalijus\wp-content\plugins\woocommerce\includes\wc-core-functions.php:158
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product.php(33): wc_get_template_part()
+#1 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\vitalijus\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#4 {main}
+  thrown
+
+2018-03-08T14:11:14+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product.php:29
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include()
+#1 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\vitalijus\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown
+
+2018-03-09T08:52:23+00:00 CRITICAL Uncaught Error: Call to undefined function main_class() in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\header.php:76
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-includes\template.php(688): require_once()
+#1 C:\MAMP\htdocs\vitalijus\wp-includes\template.php(647): load_template('C:\\MAMP\\htdocs\\...', true)
+#2 C:\MAMP\htdocs\vitalijus\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product.php(23): get_header('shop')
+#4 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\vitalijus\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#7 {main}
+  thrown
+
+2018-03-09T08:52:37+00:00 CRITICAL Uncaught Error: Call to undefined function main_class() in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\header.php:76
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-includes\template.php(688): require_once()
+#1 C:\MAMP\htdocs\vitalijus\wp-includes\template.php(647): load_template('C:\\MAMP\\htdocs\\...', true)
+#2 C:\MAMP\htdocs\vitalijus\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product.php(23): get_header('shop')
+#4 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\vitalijus\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#7 {main}
+  thrown
+
+2018-03-09T08:52:47+00:00 CRITICAL Uncaught Error: Call to undefined function main_class() in C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\header.php:76
+Stack trace:
+#0 C:\MAMP\htdocs\vitalijus\wp-includes\template.php(688): require_once()
+#1 C:\MAMP\htdocs\vitalijus\wp-includes\template.php(647): load_template('C:\\MAMP\\htdocs\\...', true)
+#2 C:\MAMP\htdocs\vitalijus\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\MAMP\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product.php(23): get_header('shop')
+#4 C:\MAMP\htdocs\vitalijus\wp-includes\template-loader.php(74): include('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\vitalijus\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#7 {main}
+  thrown
+
+2018-03-13T06:56:30+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T06:56:38+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T06:56:47+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T06:57:45+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:01:08+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:01:08+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:01:08+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:01:16+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:01:19+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:01:47+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:01:51+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:01:54+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:03:14+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:03:15+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:03:15+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:03:19+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:04:34+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:04:39+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:04:52+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:05:02+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:07:28+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:08:21+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:08:35+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:10:17+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:11:37+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:11:43+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-13T07:12:49+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 1560731739 bytes)
+
+2018-03-14T14:30:09+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::WC_Product() in C:\xampp\htdocs\vitalijus\wp-content\themes\vcs-starter\woocommerce\single-product.php:40
+Stack trace:
+#0 C:\xampp\htdocs\vitalijus\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\vitalijus\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vitalijus\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
